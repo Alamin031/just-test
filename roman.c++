@@ -30,7 +30,7 @@ int romanToInt(const std::string& s) {
 }
 
 int main() {
-    std::string s = "MCMXCIV";  // You can change this input
+    std::string s = "MCMXCIV";
     std::cout << "The integer value of " << s << " is: " << romanToInt(s) << std::endl;
     return 0;
 }
